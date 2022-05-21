@@ -1,0 +1,430 @@
+body {
+    margin: 0;
+    font-family: 'Roboto Flex', sans-serif;
+
+    font-size: 20px;
+    line-height: 1.;
+    color: #03045E;
+    background: #FBF8CC;
+}
+
+*,
+*::before,
+*:after {
+    box-sizing: border-box;
+
+}
+
+
+
+
+/*box*/
+.box {
+
+    display: flex;
+    justify-content: space-between;
+
+
+
+}
+
+
+
+/* h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+} */
+
+/*Intro*/
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    margin-right: 400px;
+
+
+    width: 100%;
+    height: 100vh;
+
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.intro__inner {
+    /* width: 100%;
+    max-width: 1200px; */
+
+    margin-left: 60px;
+    margin-top: 160px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.intro__suptitle {
+    /* margin-top: 200px; */
+    font-size: 20px;
+    font-weight: 700;
+    color: #03045E;
+
+}
+
+.intro__downtitle {
+    margin-top: -70px;
+    font-size: 20px;
+    color: #03045E;
+
+}
+
+/*intrio title*/
+.intro__title {
+    margin-top: -75px;
+    font-size: 50px;
+    font-weight: 700;
+
+    /* line-height: 1; */
+
+}
+
+
+
+/*header*/
+
+.header {
+    padding-top: 30px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.header__inner {
+    display: flex;
+    /*justify-content: space-between;*/
+    align-items: center;
+}
+
+.header__logo {
+    /*box-shadow: 4px 4px 15px 1px;*/
+    margin-left: 60px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #03045E
+}
+
+
+/*Navigatsiya*/
+.nav {
+    font-size: 14px;
+    /*text-transform: uppercase;*/
+    margin-left: 300px;
+}
+
+.nav__link {
+
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 10px;
+    color: #03045E;
+    text-decoration: none;
+    transition: color .2s linear;
+}
+
+.nav__link:hover {
+    color: #f10909;
+}
+
+/*Ionka*/
+.ikonka {
+
+    display: inline-block;
+
+    margin: 0 10px;
+
+    margin-left: 300px;
+}
+
+.ikonka__link {
+    display: inline-block;
+    /* height: 50px; */
+    width: 50px;
+    background: #f1f1f1;
+    margin: 10px;
+    border-radius: 30%;
+    text-align: center;
+}
+
+.ikonka__link i {
+    color: #14044e;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.ikonka__link :hover {
+    background: #a0d8d8;
+    transition: 1s;
+}
+
+.ikonka__link :hover i {
+    color: #f1f1f1;
+    transition: 1s;
+    transform: scale(1.2);
+}
+
+.button {
+    margin-top: 30px;
+
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px 15px;
+    border-radius: 15%;
+
+    border: 2px solid rgb(1, 23, 70);
+    font-size: 20px;
+    color: #474306;
+    background-color: #F5EE84;
+    text-decoration: none;
+    margin-right: 70px;
+    transition: background .2s linear, color .2s line;
+}
+
+.button:hover {
+
+    background-color: #fff;
+    color: #333;
+
+}
+
+.after_button {
+
+    margin-top: 25px;
+    margin-left: 59px;
+    color: #03045E;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Shadows Into Light', cursive;
+
+
+}
+
+.pic {
+    margin-top: 200px;
+    margin-left: 250px;
+    margin-right: 250px;
+    border-radius: 50%;
+    height: 350px;
+    width: 346px;
+
+}
+
+.bottom__text {
+    opacity: .8;
+    position: absolute;
+    width: 341px;
+    height: 116px;
+    left: 30px;
+    top: 670px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 100px;
+    line-height: 116px;
+    /* identical to box height, or 116% */
+
+    display: flex;
+    align-items: flex-start;
+
+    color: #a75204;
+}
+
+/*LIST AFTER ABOUT*/
+.list_after_about {
+
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 800px;
+    left: 300px;
+
+    font-size: 24px;
+    margin-left: 130px;
+    margin-top: 150px
+
+        
+    }
+}
+
+
+.list_after_about div {
+    padding: 10px;
+    border: 3px #03045E opacity;
+}
+
+.box1 {
+    flex: 1;
+    order: 1;
+}
+
+.box2 {
+    flex: 1;
+    order: 1;
+}
+
+.box3 {
+    flex: 1;
+    order: 1;
+}
+
+
+.first {
+    /* border: 3px #03045E opacity; */
+    font-size: 30px;
+
+}
+
+.first :hover {
+    border: 3px #03045E solid;
+}
+
+.second {
+    /* border: 3px #03045E opacity; */
+    font-size: 30px;
+}
+
+}
+
+.third {
+    /* border: 3px #03045E opacity; */
+    font-size: 30px;
+
+}
+
+
+/*TEXT WORK*/
+
+.Work {
+    opacity: .8;
+    position: relative;
+
+
+    left: 30px;
+
+
+
+    font-style: normal;
+    font-weight: 800;
+    font-size: 100px;
+    line-height: 116px;
+    /* identical to box height, or 116% */
+
+    display: flex;
+    align-items: flex-end;
+
+    /* Too Light Yellow */
+
+    color: #a75204;
+}
+
+/*Txt about Work*/
+
+.text_work {
+    color: #03045E;
+    font-size: 24px;
+    margin-top: 30px;
+    margin-left: 130px;
+}
+
+/*Pictures*/
+
+
+.work_pic{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10%;
+    margin-left: 20px;
+}
+
+.work_pic_item{
+    width: 380px;
+}
+
+.about_img :hover .about_img img {
+     opacity: .1;
+
+}
+
+
+.about_img{
+    background: linear-gradient( to bottom , 
+    #f38181, #fce38a);
+}
+
+.about_img img{
+    display: block;
+transition: opacity 2s linear;
+}
+
+.about_text{
+
+}
+
+.main_about_text{
+    margin-top: 20px;
+}
+.contact_text{
+    
+        opacity: .8;
+        position: relative;
+    
+    
+        left: 30px;
+    
+    
+    
+        font-style: normal;
+        font-weight: 800;
+        font-size: 100px;
+        line-height: 116px;
+        /* identical to box height, or 116% */
+    
+        display: flex;
+        align-items: flex-end;
+    
+        /* Too Light Yellow */
+    
+        color: #a75204;
+        margin-top: 60px;
+}
+
+.after_contact{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-top: 40px;
+
+}
+
+.pic_contact{
+    border-radius: 50%;
+}
+
+.text_pic{
+ 
+    display: flex;
+    flex-direction: column;
+    border: 3px #03045E opacity;
+    margin-right: 450px;
+    margin-left: 30px;
+}
+
+
+.fa-brands fa-telegram{
+    color: black;
+    text-decoration: none;
+}
